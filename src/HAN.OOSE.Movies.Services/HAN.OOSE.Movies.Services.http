@@ -1,0 +1,20 @@
+@HAN.OOSE.Movies.Services_HostAddress = https://localhost:7035
+
+GET {{HAN.OOSE.Movies.Services_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+
+GET {{HAN.OOSE.Movies.Services_HostAddress}}/movies
+
+###
+
+POST {{HAN.OOSE.Movies.Services_HostAddress}}/movie
+Content-Type: application/json
+
+{
+  //MovieDTO
+}
+
+###
